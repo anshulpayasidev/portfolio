@@ -223,3 +223,15 @@
   }
   
 }
+
+/* p.textelipsis {
+  white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+}
+
+p.textelipsis:hover {
+  overflow: visible;
+} */
