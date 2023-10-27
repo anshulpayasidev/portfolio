@@ -224,14 +224,17 @@
   
 }
 
-/* p.textelipsis {
-  white-space: nowrap; 
-  width: 200px; 
+.ellipse-class {
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
- 
+  cursor: pointer;
 }
 
-p.textelipsis:hover {
-  overflow: visible;
-} */
+img.w-50.img-fluid.mb-4 {
+  width: 100px !important;
+}
+
+img.w-50.img-fluid.mb-4 {
+  width: 50px !important;
+}
