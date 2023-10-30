@@ -224,12 +224,18 @@
   
 }
 
+
+
 .ellipse-class {
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   cursor: pointer;
 }
+
+
 
 img.w-50.img-fluid.mb-4 {
   width: 100px !important;
